@@ -1,0 +1,29 @@
+body {
+    background-color: bisque;
+   
+    
+  }
+  body h1 {
+    color: #000000;
+    text-align: center;
+  }
+  body::after {
+    content: "";
+    background-image:  url("../image/Fondo.jpg");
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    z-index: -1;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color:#FFD05B;
+  }
+  .nav-link:hover {
+    color: #F1543F;
+}
